@@ -1,7 +1,5 @@
 FROM centos/systemd
 
-RUN yum -y install httpd; yum clean all; systemctl enable httpd.service
-#RUN apt-get update
 
 RUN yum install openssh-server -y
 
